@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -47,5 +49,35 @@ a {
 
 .header-content {
     display: flex;
+    background-color: #032951;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
 }
 
+.pic-of-me {
+    display: flex;
+    border: 4px solid white;
+    margin-right: 50px;
+}
+
+.intro {
+    border: 4px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 400px;
+    max-height: 300px;
+    color: white;
+    font-size: 22px;
+    background-color: #383c3f;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    box-shadow: 10px 5px 5px black;
+}
+
+.welcome {
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
