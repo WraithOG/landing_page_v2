@@ -31,18 +31,28 @@
             Most people doing freelance web design are using site builders like wordpress, squarespace, or wix. 
             These are good for the freelancer, as they're easy to use, but they offer very little customizability and functionality. This is where I come in. I build all my websites from the ground up. I get my hands dirty with the HTML, CSS, and JavaScript. This allows me to meet all of my client's needs, creating designs unique to you! I take great pride in my work, and hope that my services will be of interest to you. Below is a form you cna use to reach out if you have any questions!
         </div>
-    </div>
-    <div class="container">
-        <div class="contact-form">
-            <div class="right">
-                <form action="send.php" method="POST">
-                    <h2>Contact Me!</h2>
-                    <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="Email Address">
-                    <textarea class="field" placeholder="Message"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+        <div class="container">
+            <div class="contact-form">
+                <div class="right">
+                    <form action="send.php" method="POST">
+                        <div class="contact-title">Contact Me!</div>
+                        <div class="personal-info">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email Address" required>
+                            
+                        </div>
+                        <div class="subject">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <textarea class="field" placeholder="Message" rows="5" cols="60" required></textarea>
+                        <div class="sub-button">
+                            <input type="submit" value="Submit">
+                        </div>
+                        
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+    
 </body>
